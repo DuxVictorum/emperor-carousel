@@ -6,6 +6,13 @@ header {
   text-align: center;
 }
 
+h1 {
+  font-size: 3rem;
+}
+.top-p {
+  font-size: 1.4rem;
+}
+
 .main-container {
   text-align: center;
 }
@@ -13,11 +20,21 @@ header {
 .coin-1 {
   width: 50%;
   margin: auto;
-
+  position: relative;
   outline: 2px dashed red;
   text-align: center;
 }
+.left-button {
+  position: absolute;
+  bottom: 48%;
+  left: 0;
+}
+.right-button {
+  position: absolute;
+  bottom: 48%;
+  right: 0;
+}
 
 img {
-  width: 70%;
+  width: 50%;
 }
