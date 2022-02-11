@@ -1,7 +1,11 @@
+import coinData from "./coinData.js";
+
 const leftButton = document.querySelector(".left-button");
 const rightButton = document.querySelector(".right-button");
-const coinImage = document.querySelector(".coin-image");
+const coinObverse = document.querySelector(".coin-obverse");
+const coinReverse = document.querySelector(".coin-reverse");
 
 leftButton.addEventListener("click", e => {
-  coinImage.src = "assets/aureus_Nero21.jpg";
+  coinObverse.src = "assets/aureus_Nero21.jpg";
+  coinReverse.src = "assets/aureus_rev_Nero21.jpg";
 });
