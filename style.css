@@ -16,13 +16,14 @@ h1 {
 .main-container {
 }
 
-.coin-1 {
+.coin {
   width: 50%;
+  min-height: ;
   margin: auto;
   position: relative;
   outline: 2px dashed red;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .left-button {
@@ -43,12 +44,12 @@ img {
 }
 
 @media screen and (max-width: 992px) {
-  .coin-1 {
+  .coin {
     width: 68%;
   }
 }
 @media screen and (max-width: 768px) {
-  .coin-1 {
+  .coin {
     width: 80%;
   }
 }
