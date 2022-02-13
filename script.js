@@ -5,7 +5,16 @@ const rightButton = document.querySelector(".right-button");
 const coinObverse = document.querySelector(".coin-obverse");
 const coinReverse = document.querySelector(".coin-reverse");
 
+let currentEmperor = 0;
+
 rightButton.addEventListener("click", e => {
-  coinObverse.src = "assets/02-Tiberius27.jpg";
-  coinReverse.src = "assets/02-Tiberius27_rev.jpg";
+  currentEmperor += 1;
+  coinObverse.src = coinData[currentEmperor].coinFile[0];
+  coinReverse.src = coinData[currentEmperor].coinFile[1];
+});
+
+leftButton.addEventListener("click", e => {
+  currentEmperor -= 1;
+  coinObverse.src = coinData[currentEmperor].coinFile[0];
+  coinReverse.src = coinData[currentEmperor].coinFile[1];
 });

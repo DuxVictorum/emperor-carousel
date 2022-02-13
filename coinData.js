@@ -31,7 +31,7 @@ const coinData = [
       "luxurious retreat on island of Capri",
       "manipulated by Sejanus, captain of the praetorian guard",
     ],
-    coinFile: ["assets/02-Tiberius27.jpg", "assets/02-Tiberius"],
+    coinFile: ["assets/02-Tiberius27.jpg", "assets/02-Tiberius27_rev.jpg"],
     URL: "http://numismatics.org/ocre/id/ric.1(2).tib.18",
     imageStyle: "double",
   },
