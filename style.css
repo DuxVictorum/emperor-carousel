@@ -46,6 +46,17 @@ h1 {
   color: rgb(197, 158, 28);
 }
 
+.data {
+  margin-top: 1.5rem;
+  max-width: 500px;
+  margin: 0 auto;
+  /* outline: 2px blue dashed; */
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  position: relative;
+  left: 100px;
+}
+
 img {
   width: 48%;
 }
