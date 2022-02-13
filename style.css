@@ -21,22 +21,29 @@ h1 {
   min-height: ;
   margin: auto;
   position: relative;
-  outline: 2px dashed red;
+  /* outline: 2px dashed red; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.left-button {
-  width: 80px;
+.button {
   position: absolute;
-  bottom: 48%;
-  left: -90px;
+  bottom: 42%;
+  font-size: 3rem;
+  border: none;
+  background-color: inherit;
+}
+.button:hover {
+  opacity: 70%;
+}
+.left-button {
+  left: -60px;
 }
 .right-button {
-  width: 80px;
-  position: absolute;
-  bottom: 48%;
-  right: -90px;
+  right: -60px;
+}
+.colored {
+  color: rgb(197, 158, 28);
 }
 
 img {
@@ -47,9 +54,21 @@ img {
   .coin {
     width: 68%;
   }
+  .button {
+    font-size: 2.5rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .coin {
     width: 80%;
+  }
+  .button {
+    font-size: 2.2rem;
+  }
+  .left-button {
+    left: -40px;
+  }
+  .right-button {
+    right: -40px;
   }
 }
