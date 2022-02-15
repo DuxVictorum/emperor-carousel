@@ -21,8 +21,8 @@ const coinData = [
     emperorName: "Tiberius",
     fullName: "Tiberius Caesar Augustus",
     birthName: "Tiberius Claudius Nero",
-    bornDied: "42 BC-AD 37",
-    reigned: "AD 14-37",
+    bornDied: "42 BC - AD 37",
+    reigned: "AD 14 - 37",
     yearsReigned: 22,
     howDied: "natural causes / old age",
     notableFor: [

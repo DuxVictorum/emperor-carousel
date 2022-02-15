@@ -8,9 +8,11 @@ header {
 
 h1 {
   font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 .top-p {
   font-size: 1.4rem;
+  margin: 0;
 }
 
 .main-container {
@@ -55,6 +57,9 @@ h1 {
   line-height: 1.7rem;
   position: relative;
   left: 100px;
+}
+.notableFor {
+  margin: 0.2rem 0;
 }
 
 img {
