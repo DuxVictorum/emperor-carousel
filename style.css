@@ -8,11 +8,11 @@ header {
 
 h1 {
   font-size: 3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .top-p {
   font-size: 1.4rem;
-  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .main-container {
@@ -21,7 +21,7 @@ h1 {
 .coin {
   width: 50%;
   min-height: ;
-  margin: auto;
+  margin: 1rem auto;
   position: relative;
   /* outline: 2px dashed red; */
   display: flex;

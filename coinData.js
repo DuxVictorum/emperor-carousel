@@ -47,8 +47,8 @@ const coinData = [
       "known for his extravagance and cruelty",
       "really loved chariot racing",
     ],
-    coinFile: ["", ""],
-    URL: "",
+    coinFile: ["assets/03-Caligula32.jpg", "assets/03-Caligula32_rev.jpg"],
+    URL: "http://numismatics.org/ocre/id/ric.1(2).gai.32",
   },
 ];
 
