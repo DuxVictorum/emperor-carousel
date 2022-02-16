@@ -33,6 +33,23 @@ const coinData = [
     coinFile: ["assets/02-Tiberius27.jpg", "assets/02-Tiberius27_rev.jpg"],
     URL: "http://numismatics.org/ocre/id/ric.1(2).tib.18",
   },
+  {
+    emperorId: 3,
+    emperorName: "Caligula",
+    fullName: "Gaius Caesar Augustus Germanicus",
+    birthName: "Gaius Julius Caesar",
+    bornDied: "AD 12 - 41",
+    reigned: "AD 37 - 41",
+    yearsReigned: 3.5,
+    howDied: "assassinated",
+    notableFor: [
+      "son of Germanicus, Tiberius's nephew",
+      "known for his extravagance and cruelty",
+      "really loved chariot racing",
+    ],
+    coinFile: ["", ""],
+    URL: "",
+  },
 ];
 
 export default coinData;
