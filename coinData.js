@@ -14,7 +14,7 @@ const coinData = [
       "Funded numerous major building projects around Rome",
     ],
     coinFile: ["assets/01-Aug37A.jpg", "assets/01-Aug37A_rev.jpg"],
-    URL: "http://numismatics.org/ocre/id/ric.1(2).aug.31",
+    coinLink: "http://numismatics.org/ocre/id/ric.1(2).aug.31",
   },
   {
     emperorId: 2,
@@ -31,7 +31,7 @@ const coinData = [
       "Manipulated by Sejanus, captain of the praetorian guard",
     ],
     coinFile: ["assets/02-Tiberius27.jpg", "assets/02-Tiberius27_rev.jpg"],
-    URL: "http://numismatics.org/ocre/id/ric.1(2).tib.18",
+    coinLink: "http://numismatics.org/ocre/id/ric.1(2).tib.18",
   },
   {
     emperorId: 3,
@@ -48,7 +48,7 @@ const coinData = [
       "Rumored to have incestuous relationship with his sister",
     ],
     coinFile: ["assets/03-Caligula32.jpg", "assets/03-Caligula32_rev.jpg"],
-    URL: "http://numismatics.org/ocre/id/ric.1(2).gai.32",
+    coinLink: "http://numismatics.org/ocre/id/ric.1(2).gai.32",
   },
   {
     emperorId: 4,
@@ -65,7 +65,7 @@ const coinData = [
       "Wrote histories of Carthage and the Etruscans",
     ],
     coinFile: ["assets/04-Claudius25.jpg", "assets/04-Claudius25_rev.jpg"],
-    URL: "http://numismatics.org/ocre/id/ric.1(2).cl.25",
+    coinLink: "http://numismatics.org/ocre/id/ric.1(2).cl.25",
   },
 ];
 
