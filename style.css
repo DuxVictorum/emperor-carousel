@@ -51,13 +51,13 @@ h1 {
 
 .data {
   margin-top: 1.5rem;
-  max-width: 500px;
+  max-width: 450px;
   margin: 0 auto;
   /* outline: 2px blue dashed; */
   font-size: 1.2rem;
   line-height: 1.5rem;
   position: relative;
-  left: 100px;
+  left: 60px;
 }
 .boldName {
   font-size: 1.5rem;
