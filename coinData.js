@@ -67,6 +67,23 @@ const coinData = [
     coinFile: ["assets/04-Claudius25.jpg", "assets/04-Claudius25_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.1(2).cl.25",
   },
+  {
+    emperorId: 5,
+    emperorName: "Nero",
+    fullName: "Nero Claudius Caesar Augustus Germanicus",
+    birthName: "Lucius Domitius Ahenobarbus",
+    bornDied: "AD 37 - 68",
+    reigned: "AD 54 - 68",
+    yearsReigned: 13,
+    howDied: "suicide / ordered his secretary to stab him",
+    notableFor: [
+      "Accepted non-Italians into the Senate",
+      "Launched invasion of Britain",
+      "Wrote histories of Carthage and the Etruscans",
+    ],
+    coinFile: ["assets/05-Nero137.jpg", "assets/05-Nero137_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.1(2).ner.137",
+  },
 ];
 
 export default coinData;
