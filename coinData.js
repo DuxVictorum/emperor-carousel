@@ -2,6 +2,7 @@ const coinData = [
   {
     emperorId: 1,
     emperorName: "Caesar Augustus",
+    wikiLink: "https://en.wikipedia.org/wiki/Augustus",
     fullName: "Imperator Caesar Augustus",
     birthName: "Gaius Octavius",
     bornDied: "63 BC - AD 14",
@@ -19,6 +20,7 @@ const coinData = [
   {
     emperorId: 2,
     emperorName: "Tiberius",
+    wikiLink: "https://en.wikipedia.org/wiki/Tiberius",
     fullName: "Tiberius Caesar Augustus",
     birthName: "Tiberius Claudius Nero",
     bornDied: "42 BC - AD 37",
@@ -36,6 +38,7 @@ const coinData = [
   {
     emperorId: 3,
     emperorName: "Caligula",
+    wikiLink: "https://en.wikipedia.org/wiki/Caligula",
     fullName: "Gaius Caesar Augustus Germanicus",
     birthName: "Gaius Julius Caesar",
     bornDied: "AD 12 - 41",
@@ -53,6 +56,7 @@ const coinData = [
   {
     emperorId: 4,
     emperorName: "Claudius",
+    wikiLink: "https://en.wikipedia.org/wiki/Claudius",
     fullName: "Tiberius Claudius Caesar Augustus Germanicus",
     birthName: "Tiberius Claudius Nero Germanicus",
     bornDied: "10 BC - AD 54",
@@ -70,6 +74,7 @@ const coinData = [
   {
     emperorId: 5,
     emperorName: "Nero",
+    wikiLink: "https://en.wikipedia.org/wiki/Nero",
     fullName: "Nero Claudius Caesar Augustus Germanicus",
     birthName: "Lucius Domitius Ahenobarbus",
     bornDied: "AD 37 - 68",
@@ -77,9 +82,9 @@ const coinData = [
     yearsReigned: 13,
     howDied: "suicide / ordered his secretary to stab him",
     notableFor: [
-      "Accepted non-Italians into the Senate",
-      "Launched invasion of Britain",
-      "Wrote histories of Carthage and the Etruscans",
+      "Famous for singing and performing on stage",
+      "Kicked his pregnant mistress to death",
+      "Last of the Julio-Claudian dyansty",
     ],
     coinFile: ["assets/05-Nero137.jpg", "assets/05-Nero137_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.1(2).ner.137",
