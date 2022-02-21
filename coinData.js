@@ -62,7 +62,7 @@ const coinData = [
     bornDied: "10 BC - AD 54",
     reigned: "AD 41 - 54",
     yearsReigned: 13,
-    howDied: "poisoned",
+    howDied: "poisoned by his wife",
     notableFor: [
       "Accepted non-Italians into the Senate",
       "Launched invasion of Britain",
@@ -88,6 +88,24 @@ const coinData = [
     ],
     coinFile: ["assets/05-Nero137.jpg", "assets/05-Nero137_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.1(2).ner.137",
+  },
+  {
+    emperorId: 6,
+    emperorName: "Galba",
+    wikiLink: "https://en.wikipedia.org/wiki/Galba",
+    fullName: "Servius Galba Caesar Augustus",
+    birthName: "Servius Sulpicius Galba",
+    bornDied: "3 BC - AD 69",
+    reigned: "AD 68 - 69",
+    yearsReigned: 0.5,
+    howDied: "assassinated by unloyal soldiers during civil war",
+    notableFor: [
+      "First emperor not related to Augustus",
+      "Hailed emperor during unrest at end of Nero's reign",
+      "Was bald and suffered from gout",
+    ],
+    coinFile: ["assets/06-Galba132.jpg", "assets/06-Galba132_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.1(2).gal.132",
   },
 ];
 
