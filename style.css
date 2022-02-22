@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  /* background-color: aquamarine; */
+}
+
 header {
   text-align: center;
 }
@@ -21,18 +25,26 @@ h1 {
 
 .coin {
   width: 50%;
-  min-height: ;
   margin: 1rem auto;
   position: relative;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 8px groove rgb(119, 160, 236);
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  border: 8px groove rgb(105, 131, 180);
+  border-radius: 20px;
+}
+.coin-img {
+  /* display: inline-block; */
+  position: relative;
+  left: 6px;
+}
+.coinLink {
+  text-decoration: none;
 }
 .button {
   position: absolute;
   bottom: 42%;
-  font-size: 3rem;
+  font-size: 4rem;
   border: none;
   background-color: inherit;
 }
@@ -40,10 +52,10 @@ h1 {
   opacity: 70%;
 }
 .left-button {
-  left: -70px;
+  left: -90px;
 }
 .right-button {
-  right: -70px;
+  right: -90px;
 }
 .colored {
   color: rgb(197, 158, 28);
@@ -84,7 +96,7 @@ img {
     width: 68%;
   }
   .button {
-    font-size: 2.5rem;
+    font-size: 3.3rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -92,12 +104,12 @@ img {
     width: 80%;
   }
   .button {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
   .left-button {
-    left: -40px;
+    left: -66px;
   }
   .right-button {
-    right: -40px;
+    right: -66px;
   }
 }
