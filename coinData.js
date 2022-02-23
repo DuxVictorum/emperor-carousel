@@ -107,6 +107,24 @@ const coinData = [
     coinFile: ["assets/06-Galba132.jpg", "assets/06-Galba132_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.1(2).gal.132",
   },
+  {
+    emperorId: 7,
+    emperorName: "Otho",
+    wikiLink: "https://en.wikipedia.org/wiki/Otho",
+    fullName: "Imperator Marcus Otho Caesar Augustus",
+    birthName: "Marcus Salvius Otho",
+    bornDied: "AD 32 - 69",
+    reigned: "AD 69",
+    yearsReigned: 0.3,
+    howDied: "suicide / stabbed himself during civil war",
+    notableFor: [
+      "Of Etruscan heritage",
+      "Lost at the Battle of Bedriacum to Vitellius",
+      "Regularly had his body hair plucked and wore a wig",
+    ],
+    coinFile: ["assets/07-Otho14.jpg", "assets/07-Otho14_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.1(2).ot.14",
+  },
 ];
 
 export default coinData;
