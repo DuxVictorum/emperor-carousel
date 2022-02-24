@@ -3,7 +3,7 @@
 }
 
 body {
-  /* background-color: aquamarine; */
+  background-color: rgb(189, 227, 241);
 }
 
 header {
@@ -32,6 +32,7 @@ h1 {
   /* flex-wrap: wrap; */
   border: 8px groove rgb(105, 131, 180);
   border-radius: 20px;
+  background-color: white;
 }
 .coin-img {
   /* display: inline-block; */
@@ -58,7 +59,8 @@ h1 {
   right: -90px;
 }
 .colored {
-  color: rgb(197, 158, 28);
+  color: #da3131;
+  background-color: rgb(189, 227, 241);
 }
 
 .data {
@@ -76,6 +78,10 @@ h1 {
   font-weight: bold;
   margin-bottom: 1rem;
   text-align: center;
+}
+.name {
+  /* text-decoration: none; */
+  color: #b32222;
 }
 
 .notableFor {
