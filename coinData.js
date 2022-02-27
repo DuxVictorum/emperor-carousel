@@ -125,6 +125,24 @@ const coinData = [
     coinFile: ["assets/07-Otho14.jpg", "assets/07-Otho14_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.1(2).ot.14",
   },
+  {
+    emperorId: 8,
+    emperorName: "Vitellius",
+    wikiLink: "https://en.wikipedia.org/wiki/Vitellius",
+    fullName: "Aulus Vitellius Germanicus Imperator Augustus",
+    birthName: "Aulus Vitellius",
+    bornDied: "AD 15 - 69",
+    reigned: "AD 69",
+    yearsReigned: 0.6,
+    howDied: "executed by Vespasian's soldiers during civil war",
+    notableFor: [
+      "First emperor to take a different title than Caesar, choosing Germanicus instead",
+      "Known for being obese and a glutton",
+      "Banned all astrologers from Rome",
+    ],
+    coinFile: ["assets/08-Vitellius17.jpg", "assets/08-Vitellius17_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.1(2).vit.17",
+  },
 ];
 
 export default coinData;

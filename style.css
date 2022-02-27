@@ -25,7 +25,7 @@ h1 {
 }
 
 .coin {
-  width: 50%;
+  width: 45%;
   margin: 1rem auto;
   position: relative;
   /* display: flex; */
@@ -45,7 +45,7 @@ h1 {
 }
 .button {
   position: absolute;
-  top: 11.4rem;
+  top: 10rem;
   font-size: 4rem;
   border: none;
   background-color: inherit;
