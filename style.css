@@ -61,7 +61,7 @@ h1 {
 }
 .colored {
   color: #da3131;
-  background-color: rgb(189, 227, 241);
+  background-color: rgb(204, 230, 240);
 }
 
 .data {
@@ -92,8 +92,7 @@ h1 {
       to right,
       rgb(255, 0, 0),
       rgb(230, 174, 35),
-      rgb(0, 100, 200),
-      rgb(255, 0, 180)
+      rgb(0, 100, 200)
     );
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
@@ -104,6 +103,10 @@ h1 {
   background-size: 0 3px, 100% 3px;
 }
 
+.interestingList {
+  /* outline: 2px blue dashed; */
+  padding-left: 4px;
+}
 .notableFor {
   margin: 0.2rem 0;
 }
