@@ -22,12 +22,14 @@ function notableBits(stuff) {
   for (let i = 0; i < stuff.length; i++) {
     notableStuff += "<li>" + stuff[i] + "</li>";
   }
-  console.log(notableStuff);
   return notableStuff;
 }
 
 leftButton.addEventListener("click", e => {
-  currentEmperor -= 1;
+  if (currentEmperor > 0) {
+    currentEmperor -= 1;
+  }
+  console.log(currentEmperor);
   coinObverse.src = coinData[currentEmperor].coinFile[0];
   coinReverse.src = coinData[currentEmperor].coinFile[1];
   coinLink.href = coinData[currentEmperor].coinLink;
@@ -43,7 +45,8 @@ leftButton.addEventListener("click", e => {
 });
 
 rightButton.addEventListener("click", e => {
-  currentEmperor += 1;
+  if (currentEmperor < coinData.length - 1) currentEmperor += 1;
+  console.log(currentEmperor);
   coinObverse.src = coinData[currentEmperor].coinFile[0];
   coinReverse.src = coinData[currentEmperor].coinFile[1];
   coinLink.href = coinData[currentEmperor].coinLink;
