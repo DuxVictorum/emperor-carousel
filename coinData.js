@@ -143,6 +143,24 @@ const coinData = [
     coinFile: ["assets/08-Vitellius17.jpg", "assets/08-Vitellius17_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.1(2).vit.17",
   },
+  {
+    emperorId: 9,
+    emperorName: "Vespasian",
+    wikiLink: "https://en.wikipedia.org/wiki/Vespasian",
+    fullName: "Imperator Caesar Vespasianus Augustus",
+    birthName: "Titus Flavius Vespasianus",
+    bornDied: "AD 9 - 79",
+    reigned: "AD 69 - 79",
+    yearsReigned: 10,
+    howDied: "natural causes / illness and diarrheoia",
+    notableFor: [
+      "Rose to emperor during civil war",
+      "Subdued the rebellious province of Judea",
+      "Placed a tax on the common practice of urine collecting",
+    ],
+    coinFile: ["assets/09-Vespasian25.jpg", "assets/09-Vespasian25_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.2_1(2).ves.25",
+  },
 ];
 
 export default coinData;

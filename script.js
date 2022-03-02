@@ -29,7 +29,6 @@ leftButton.addEventListener("click", e => {
   if (currentEmperor > 0) {
     currentEmperor -= 1;
   }
-  console.log(currentEmperor);
   coinObverse.src = coinData[currentEmperor].coinFile[0];
   coinReverse.src = coinData[currentEmperor].coinFile[1];
   coinLink.href = coinData[currentEmperor].coinLink;
@@ -46,7 +45,6 @@ leftButton.addEventListener("click", e => {
 
 rightButton.addEventListener("click", e => {
   if (currentEmperor < coinData.length - 1) currentEmperor += 1;
-  console.log(currentEmperor);
   coinObverse.src = coinData[currentEmperor].coinFile[0];
   coinReverse.src = coinData[currentEmperor].coinFile[1];
   coinLink.href = coinData[currentEmperor].coinLink;
