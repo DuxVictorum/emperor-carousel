@@ -1,6 +1,7 @@
 const coinData = [
   {
     emperorId: 1,
+    period: "Julio-Claudian",
     emperorName: "Caesar Augustus",
     wikiLink: "https://en.wikipedia.org/wiki/Augustus",
     fullName: "Imperator Caesar Augustus",
@@ -19,6 +20,7 @@ const coinData = [
   },
   {
     emperorId: 2,
+    period: "Julio-Claudian",
     emperorName: "Tiberius",
     wikiLink: "https://en.wikipedia.org/wiki/Tiberius",
     fullName: "Tiberius Caesar Augustus",
@@ -37,6 +39,7 @@ const coinData = [
   },
   {
     emperorId: 3,
+    period: "Julio-Claudian",
     emperorName: "Caligula",
     wikiLink: "https://en.wikipedia.org/wiki/Caligula",
     fullName: "Gaius Caesar Augustus Germanicus",
@@ -55,6 +58,7 @@ const coinData = [
   },
   {
     emperorId: 4,
+    period: "Julio-Claudian",
     emperorName: "Claudius",
     wikiLink: "https://en.wikipedia.org/wiki/Claudius",
     fullName: "Tiberius Claudius Caesar Augustus Germanicus",
@@ -73,6 +77,7 @@ const coinData = [
   },
   {
     emperorId: 5,
+    period: "Julio-Claudian",
     emperorName: "Nero",
     wikiLink: "https://en.wikipedia.org/wiki/Nero",
     fullName: "Nero Claudius Caesar Augustus Germanicus",
@@ -91,6 +96,7 @@ const coinData = [
   },
   {
     emperorId: 6,
+    period: "Year of Four Emperors",
     emperorName: "Galba",
     wikiLink: "https://en.wikipedia.org/wiki/Galba",
     fullName: "Servius Galba Caesar Augustus",
@@ -109,6 +115,7 @@ const coinData = [
   },
   {
     emperorId: 7,
+    period: "Year of Four Emperors",
     emperorName: "Otho",
     wikiLink: "https://en.wikipedia.org/wiki/Otho",
     fullName: "Imperator Marcus Otho Caesar Augustus",
@@ -127,6 +134,7 @@ const coinData = [
   },
   {
     emperorId: 8,
+    period: "Year of Four Emperors",
     emperorName: "Vitellius",
     wikiLink: "https://en.wikipedia.org/wiki/Vitellius",
     fullName: "Aulus Vitellius Germanicus Imperator Augustus",
@@ -145,6 +153,7 @@ const coinData = [
   },
   {
     emperorId: 9,
+    period: "Flavian",
     emperorName: "Vespasian",
     wikiLink: "https://en.wikipedia.org/wiki/Vespasian",
     fullName: "Imperator Caesar Vespasianus Augustus",
@@ -160,6 +169,25 @@ const coinData = [
     ],
     coinFile: ["assets/09-Vespasian25.jpg", "assets/09-Vespasian25_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.2_1(2).ves.25",
+  },
+  {
+    emperorId: 10,
+    period: "Flavian",
+    emperorName: "Titus",
+    wikiLink: "https://en.wikipedia.org/wiki/Titus",
+    fullName: "Imperator Titus Caesar Vespasianus Augustus",
+    birthName: "Titus Flavius Vespasianus",
+    bornDied: "AD 39 - 81",
+    reigned: "AD 79 - 81",
+    yearsReigned: 2,
+    howDied: "fever",
+    notableFor: [
+      "As general led the sack of Jerusalem in AD 70",
+      "Finished construction of the Flavian amphitheater (aka the Colosseum)",
+      "Famous for his generosity, including to the survivors of the Vesuvius eruption",
+    ],
+    coinFile: ["assets/10-Titus13.jpg", "assets/10-Titus13_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.2_1(2).tit.13",
   },
 ];
 
