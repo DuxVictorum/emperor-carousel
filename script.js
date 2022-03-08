@@ -39,8 +39,10 @@ leftButton.addEventListener("click", e => {
   empID.innerText = coinData[currentEmperor].emperorId;
   name.innerText = coinData[currentEmperor].emperorName;
   name.href = coinData[currentEmperor].wikiLink;
-  minus1.innerText = coinData[currentEmperor - 1].emperorName;
   minus2.innerText = coinData[currentEmperor - 2].emperorName;
+  minus1.innerText = coinData[currentEmperor - 1].emperorName;
+  plus1.innerText = coinData[currentEmperor + 1].emperorName;
+  plus2.innerText = coinData[currentEmperor + 2].emperorName;
   fullName.innerText = coinData[currentEmperor].fullName;
   bornDied.innerText = coinData[currentEmperor].bornDied;
   reigned.innerText = coinData[currentEmperor].reigned;
@@ -50,15 +52,33 @@ leftButton.addEventListener("click", e => {
 });
 
 rightButton.addEventListener("click", e => {
-  if (currentEmperor < coinData.length - 1) currentEmperor += 1;
+  if (currentEmperor < coinData.length - 1) {
+    currentEmperor += 1;
+  }
   coinObverse.src = coinData[currentEmperor].coinFile[0];
   coinReverse.src = coinData[currentEmperor].coinFile[1];
   coinLink.href = coinData[currentEmperor].coinLink;
   empID.innerText = coinData[currentEmperor].emperorId;
   name.innerText = coinData[currentEmperor].emperorName;
   name.href = coinData[currentEmperor].wikiLink;
-  plus1.innerText = coinData[currentEmperor + 1].emperorName;
-  plus2.innerText = coinData[currentEmperor + 2].emperorName;
+  if (currentEmperor > 1) {
+    minus2.style.visibility = "visible";
+    minus2.innerText = coinData[currentEmperor - 2].emperorName;
+  }
+  if (currentEmperor > 0) {
+    minus1.style.visibility = "visible";
+    minus1.innerText = coinData[currentEmperor - 1].emperorName;
+  }
+  if (currentEmperor < coinData.length - 1) {
+    plus1.innerText = coinData[currentEmperor + 1].emperorName;
+  } else {
+    plus1.style.visibility = "hidden";
+  }
+  if (currentEmperor < coinData.length - 2) {
+    plus2.innerText = coinData[currentEmperor + 2].emperorName;
+  } else {
+    plus2.style.visibility = "hidden";
+  }
   fullName.innerText = coinData[currentEmperor].fullName;
   bornDied.innerText = coinData[currentEmperor].bornDied;
   reigned.innerText = coinData[currentEmperor].reigned;

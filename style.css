@@ -16,12 +16,9 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .top-p {
-  font-size: 1.4rem;
-  margin: 1rem 0 1.5rem;
+  font-size: 1.3rem;
+  margin: 1rem 0;
   font-family: "Roboto Serif", sans-serif;
-}
-
-.main-container {
 }
 
 .coin {
@@ -104,7 +101,7 @@ h1 {
   visibility: hidden;
 }
 .oneAway {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   opacity: 60%;
 }
 .twoAway {
