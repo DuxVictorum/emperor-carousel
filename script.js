@@ -39,6 +39,18 @@ leftButton.addEventListener("click", e => {
   empID.innerText = coinData[currentEmperor].emperorId;
   name.innerText = coinData[currentEmperor].emperorName;
   name.href = coinData[currentEmperor].wikiLink;
+  if (currentEmperor < 2) {
+    minus2.style.visibility = "hidden";
+  }
+  if (currentEmperor < 1) {
+    minus1.style.visibility = "hidden";
+  }
+  if (currentEmperor < coinData.length - 1) {
+    plus1.style.visibility = "visible";
+  }
+  if (currentEmperor < coinData.length - 2) {
+    plus2.style.visibility = "visible";
+  }
   minus2.innerText = coinData[currentEmperor - 2].emperorName;
   minus1.innerText = coinData[currentEmperor - 1].emperorName;
   plus1.innerText = coinData[currentEmperor + 1].emperorName;
