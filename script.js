@@ -39,22 +39,24 @@ leftButton.addEventListener("click", e => {
   empID.innerText = coinData[currentEmperor].emperorId;
   name.innerText = coinData[currentEmperor].emperorName;
   name.href = coinData[currentEmperor].wikiLink;
-  if (currentEmperor < 2) {
+  if (currentEmperor > 1) {
+    minus2.innerText = coinData[currentEmperor - 2].emperorName;
+  } else {
     minus2.style.visibility = "hidden";
   }
-  if (currentEmperor < 1) {
+  if (currentEmperor > 0) {
+    minus1.innerText = coinData[currentEmperor - 1].emperorName;
+  } else {
     minus1.style.visibility = "hidden";
   }
   if (currentEmperor < coinData.length - 1) {
     plus1.style.visibility = "visible";
+    plus1.innerText = coinData[currentEmperor + 1].emperorName;
   }
   if (currentEmperor < coinData.length - 2) {
     plus2.style.visibility = "visible";
+    plus2.innerText = coinData[currentEmperor + 2].emperorName;
   }
-  minus2.innerText = coinData[currentEmperor - 2].emperorName;
-  minus1.innerText = coinData[currentEmperor - 1].emperorName;
-  plus1.innerText = coinData[currentEmperor + 1].emperorName;
-  plus2.innerText = coinData[currentEmperor + 2].emperorName;
   fullName.innerText = coinData[currentEmperor].fullName;
   bornDied.innerText = coinData[currentEmperor].bornDied;
   reigned.innerText = coinData[currentEmperor].reigned;
