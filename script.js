@@ -12,6 +12,7 @@ const minus2 = document.querySelector(".minus2");
 const minus1 = document.querySelector(".minus1");
 const plus1 = document.querySelector(".plus1");
 const plus2 = document.querySelector(".plus2");
+const timePeriod = document.querySelector(".timePeriod");
 const fullName = document.querySelector(".fullName");
 const bornDied = document.querySelector(".bornDied");
 const reigned = document.querySelector(".reigned");
@@ -57,6 +58,7 @@ leftButton.addEventListener("click", e => {
     plus2.style.visibility = "visible";
     plus2.innerText = coinData[currentEmperor + 2].emperorName;
   }
+  timePeriod.innerText = coinData[currentEmperor].period;
   fullName.innerText = coinData[currentEmperor].fullName;
   bornDied.innerText = coinData[currentEmperor].bornDied;
   reigned.innerText = coinData[currentEmperor].reigned;
@@ -93,6 +95,7 @@ rightButton.addEventListener("click", e => {
   } else {
     plus2.style.visibility = "hidden";
   }
+  timePeriod.innerText = coinData[currentEmperor].period;
   fullName.innerText = coinData[currentEmperor].fullName;
   bornDied.innerText = coinData[currentEmperor].bornDied;
   reigned.innerText = coinData[currentEmperor].reigned;
