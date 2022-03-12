@@ -189,6 +189,25 @@ const coinData = [
     coinFile: ["assets/10-Titus13.jpg", "assets/10-Titus13_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.2_1(2).tit.13",
   },
+  {
+    emperorId: 11,
+    period: "Flavian",
+    emperorName: "Domitian",
+    wikiLink: "https://en.wikipedia.org/wiki/Domitian",
+    fullName: "Imperator Caesar Domitianus Augustus",
+    birthName: "Titus Flavius Domitianus",
+    bornDied: "AD 51 - 96",
+    reigned: "AD 81 - 96",
+    yearsReigned: 15,
+    howDied: "stabbed to death by his attendants",
+    notableFor: [
+      "Highly autocratic style of rule",
+      "Completed the Arch of Titus and rebuilt the Temple of Jupiter",
+      "After his murder, the Senate officially assigned his memory to oblivion",
+    ],
+    coinFile: ["assets/11-Domitian76.jpg", "assets/11-Domitian76_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.2_1(2).dom.76",
+  },
 ];
 
 export default coinData;
