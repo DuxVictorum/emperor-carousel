@@ -134,7 +134,7 @@ const coinData = [
   },
   {
     emperorId: 8,
-    period: "Year of the Four Emperors / Flavian",
+    period: "Year of the Four Emperors",
     emperorName: "Vitellius",
     wikiLink: "https://en.wikipedia.org/wiki/Vitellius",
     fullName: "Aulus Vitellius Germanicus Imperator Augustus",
@@ -153,7 +153,7 @@ const coinData = [
   },
   {
     emperorId: 9,
-    period: "Flavian",
+    period: "(Year of 4) Flavian",
     emperorName: "Vespasian",
     wikiLink: "https://en.wikipedia.org/wiki/Vespasian",
     fullName: "Imperator Caesar Vespasianus Augustus",
@@ -202,11 +202,30 @@ const coinData = [
     howDied: "stabbed to death by his attendants",
     notableFor: [
       "Highly autocratic style of rule",
-      "Completed the Arch of Titus and rebuilt the Temple of Jupiter",
-      "After his murder, the Senate officially assigned his memory to oblivion",
+      "Completed the Arch of Titus and rebuilt Temple of Jupiter",
+      "Senate officially assigned his memory to oblivion after death",
     ],
     coinFile: ["assets/11-Domitian76.jpg", "assets/11-Domitian76_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.2_1(2).dom.76",
+  },
+  {
+    emperorId: 12,
+    period: "Five 'Good' Emperors",
+    emperorName: "Nerva",
+    wikiLink: "https://en.wikipedia.org/wiki/Nerva",
+    fullName: "Imperator Nerva Caesar Augustus",
+    birthName: "Marcus Cocceius Nerva",
+    bornDied: "AD 30 - 98",
+    reigned: "AD 96 - 98",
+    yearsReigned: 1.5,
+    howDied: "stroke and fever / old age",
+    notableFor: [
+      "First emperor to be chosen by the Senate",
+      "Childless; forced by army to adopt a general as his heir",
+      "Last emperor to be buried in Mausoleum of Augustus",
+    ],
+    coinFile: ["assets/12-Nerva60.jpg", "assets/12-Nerva60_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.2.ner.60_sestertius",
   },
 ];
 
