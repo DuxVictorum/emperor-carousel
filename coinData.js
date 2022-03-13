@@ -183,8 +183,8 @@ const coinData = [
     howDied: "fever",
     notableFor: [
       "As general led the sack of Jerusalem in AD 70",
-      "Finished construction of the Flavian amphitheater (aka the Colosseum)",
-      "Famous for his generosity, including to the survivors of the Vesuvius eruption",
+      "Finished construction of the Colosseum",
+      "Organized help for the survivors of the Vesuvius eruption",
     ],
     coinFile: ["assets/10-Titus13.jpg", "assets/10-Titus13_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.2_1(2).tit.13",
