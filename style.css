@@ -41,7 +41,7 @@ h1 {
   top: 35%;
   font-size: 4rem;
   border: none;
-  background-color: inherit;
+  /* background-color: inherit; */
 }
 .button:hover {
   opacity: 70%;
@@ -55,6 +55,17 @@ h1 {
 .colored {
   color: #da3131;
   background-color: rgb(204, 230, 240);
+}
+.button-group-2 {
+  display: none;
+  width: 78%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.button2 {
+  font-size: 4rem;
+  border: none;
 }
 
 .nameContainer {
@@ -150,26 +161,34 @@ img {
   .data {
     left: 0;
   }
+  .coin {
+    width: 55%;
+  }
 }
 @media screen and (max-width: 992px) {
   .coin {
-    width: 68%;
+    width: 65%;
   }
   .button {
-    font-size: 3.3rem;
+    font-size: 3.5rem;
   }
 }
 @media screen and (max-width: 768px) {
   .coin {
-    width: 80%;
+    width: 78%;
   }
-  .button {
-    font-size: 3rem;
+  .button-group-1 {
+    display: none;
+  }
+  .button-group-2 {
+    display: block;
   }
   .left-button {
-    left: -66px;
+    position: relative;
+    left: -15%;
   }
   .right-button {
-    right: -66px;
+    position: relative;
+    left: 15%;
   }
 }
