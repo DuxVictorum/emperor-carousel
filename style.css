@@ -158,11 +158,34 @@ img {
   .coin {
     width: 55%;
   }
+  .emperorWord {
+    left: 10%;
+    top: 39%;
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .coin {
     width: 65%;
+  }
+  .emperorWord {
+    left: 5%;
+    top: 39%;
+    font-size: 1.1rem;
+  }
+  .data {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  .name {
+    font-size: 1.7rem;
+  }
+  .oneAway {
+    font-size: 1.1rem;
+  }
+  .twoAway {
+    font-size: 0.9rem;
   }
 }
 
@@ -184,5 +207,14 @@ img {
   }
   .colored {
     background-color: transparent;
+  }
+  .emperorWord {
+    left: 0%;
+    top: 39%;
+    font-size: 1.1rem;
+  }
+  .data {
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 }
