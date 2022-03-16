@@ -77,7 +77,7 @@ h1 {
 }
 .emperorWord {
   position: absolute;
-  left: 15%;
+  left: 12%;
   top: 36%;
 }
 .name {
@@ -115,14 +115,14 @@ h1 {
 }
 .timePeriodHeader {
   position: absolute;
-  right: 11%;
+  right: 9%;
   top: 14%;
   font-size: 1.4rem;
   text-decoration: underline;
 }
 .timePeriod {
   position: absolute;
-  right: 11%;
+  right: 9%;
   top: 39%;
   font-size: 1.3rem;
 }
@@ -158,10 +158,21 @@ img {
   .coin {
     width: 55%;
   }
+  .nameContainer {
+    width: 80%;
+  }
   .emperorWord {
     left: 10%;
     top: 39%;
     font-size: 1.3rem;
+  }
+  .timePeriodHeader {
+    font-size: 1.2rem;
+    right: 6%;
+  }
+  .timePeriod {
+    font-size: 1.1rem;
+    right: 6%;
   }
 }
 
@@ -169,10 +180,19 @@ img {
   .coin {
     width: 65%;
   }
+  .nameContainer {
+    width: 90%;
+  }
   .emperorWord {
     left: 5%;
     top: 39%;
     font-size: 1.1rem;
+  }
+  .timePeriodHeader {
+    right: 3%;
+  }
+  .timePeriod {
+    right: 3%;
   }
   .data {
     font-size: 1.1rem;
@@ -208,13 +228,29 @@ img {
   .colored {
     background-color: transparent;
   }
+  .nameContainer {
+    width: 95%;
+  }
   .emperorWord {
-    left: 0%;
+    left: 10%;
     top: 39%;
     font-size: 1.1rem;
+  }
+  .timePeriodHeader {
+    right: -2%;
+    font-size: 1.2rem;
+  }
+  .timePeriod {
+    right: -2%;
+    font-size: 1rem;
   }
   .data {
     font-size: 1rem;
     line-height: 1.2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .emperorWord {
+    left: 3%;
   }
 }

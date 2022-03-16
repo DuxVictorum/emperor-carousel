@@ -96,7 +96,7 @@ const coinData = [
   },
   {
     emperorId: 6,
-    period: "Year of the Four Emperors",
+    period: "Year of Four Emperors",
     emperorName: "Galba",
     wikiLink: "https://en.wikipedia.org/wiki/Galba",
     fullName: "Servius Galba Caesar Augustus",
@@ -115,7 +115,7 @@ const coinData = [
   },
   {
     emperorId: 7,
-    period: "Year of the Four Emperors",
+    period: "Year of Four Emperors",
     emperorName: "Otho",
     wikiLink: "https://en.wikipedia.org/wiki/Otho",
     fullName: "Imperator Marcus Otho Caesar Augustus",
@@ -134,7 +134,7 @@ const coinData = [
   },
   {
     emperorId: 8,
-    period: "Year of the Four Emperors",
+    period: "Year of Four Emperors",
     emperorName: "Vitellius",
     wikiLink: "https://en.wikipedia.org/wiki/Vitellius",
     fullName: "Aulus Vitellius Germanicus Imperator Augustus",
