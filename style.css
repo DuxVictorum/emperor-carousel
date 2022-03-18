@@ -22,7 +22,7 @@ h1 {
 }
 
 .coin {
-  width: 40%;
+  width: 35%;
   margin: 1rem auto 0.3rem;
   position: relative;
   border: 8px groove rgb(105, 131, 180);
@@ -47,11 +47,11 @@ h1 {
 }
 .left-button {
   left: -90px;
-  top: 148px;
+  top: 35%;
 }
 .right-button {
   right: -90px;
-  top: 148px;
+  top: 35%;
 }
 .colored {
   color: #da3131;
@@ -215,15 +215,17 @@ img {
   }
   .emptyland {
     display: block;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .left-button {
     left: 15%;
-    bottom: -78%;
+    bottom: -105%;
+    font-size: 3rem;
   }
   .right-button {
     right: 15%;
-    bottom: -78%;
+    bottom: -105%;
+    font-size: 3rem;
   }
   .colored {
     background-color: transparent;
