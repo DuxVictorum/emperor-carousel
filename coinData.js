@@ -210,7 +210,7 @@ const coinData = [
   },
   {
     emperorId: 12,
-    period: "Five 'Good' Emperors",
+    period: "5 'Good' Emperors",
     emperorName: "Nerva",
     wikiLink: "https://en.wikipedia.org/wiki/Nerva",
     fullName: "Imperator Nerva Caesar Augustus",
@@ -226,6 +226,25 @@ const coinData = [
     ],
     coinFile: ["assets/12-Nerva60.jpg", "assets/12-Nerva60_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.2.ner.60_sestertius",
+  },
+  {
+    emperorId: 13,
+    period: "5 'Good' Emperors",
+    emperorName: "Trajan",
+    wikiLink: "https://en.wikipedia.org/wiki/Trajan",
+    fullName: "Imperator Caesar Nerva Traianus Augustus",
+    birthName: "Marcus Ulpius Traianus",
+    bornDied: "AD 53 - 117",
+    reigned: "AD 98 - 117",
+    yearsReigned: 19,
+    howDied: "illness / edema",
+    notableFor: [
+      "First emperor not to be Italian (from Spain)",
+      "Famous general; added Dacia (Romania) and Arabia to the empire",
+      "Established welfare program for the poor and orphans",
+    ],
+    coinFile: ["assets/13-Trajan52.jpg", "assets/13-Trajan52_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.2.tr.52",
   },
 ];
 
