@@ -12,7 +12,7 @@ const coinData = [
     howDied: "natural causes / old age",
     notableFor: [
       "First emperor",
-      "Ended Roman civil war when he defeated his rival Marcus Antony and his ally and lover Cleopatra",
+      "Defeated Marcus Antony and Cleopatra to claim power",
       "Funded numerous major building projects around Rome",
     ],
     coinFile: ["assets/01-Aug37A.jpg", "assets/01-Aug37A_rev.jpg"],
@@ -144,7 +144,7 @@ const coinData = [
     yearsReigned: 0.6,
     howDied: "executed by Vespasian's soldiers during civil war",
     notableFor: [
-      "First emperor to take a different title than Caesar, choosing Germanicus instead",
+      "First emperor not to take the title Caesar",
       "Known for being obese and a glutton",
       "Banned all astrologers from Rome",
     ],
@@ -153,7 +153,7 @@ const coinData = [
   },
   {
     emperorId: 9,
-    period: "(Year of 4) Flavian",
+    period: "Year of 4 / Flavian",
     emperorName: "Vespasian",
     wikiLink: "https://en.wikipedia.org/wiki/Vespasian",
     fullName: "Imperator Caesar Vespasianus Augustus",
@@ -240,7 +240,7 @@ const coinData = [
     howDied: "illness / edema",
     notableFor: [
       "First emperor not to be Italian (from Spain)",
-      "Famous general; added Dacia (Romania) and Arabia to the empire",
+      "Added Dacia (Romania) and Arabia to the empire",
       "Established welfare program for the poor and orphans",
     ],
     coinFile: ["assets/13-Trajan52.jpg", "assets/13-Trajan52_rev.jpg"],
