@@ -246,6 +246,25 @@ const coinData = [
     coinFile: ["assets/13-Trajan52.jpg", "assets/13-Trajan52_rev.jpg"],
     coinLink: "http://numismatics.org/ocre/id/ric.2.tr.52",
   },
+  {
+    emperorId: 14,
+    period: "5 'Good' Emperors",
+    emperorName: "Hadrian",
+    wikiLink: "https://en.wikipedia.org/wiki/Hadrian",
+    fullName: "Imperator Caesar Traianus Hadrianus Augustus",
+    birthName: "Publius Aelius Hadrianus",
+    bornDied: "AD 76 - 138",
+    reigned: "AD 117 - 138",
+    yearsReigned: 19,
+    howDied: "illness",
+    notableFor: [
+      "Built Hadrian's Wall and the Pantheon (go see it, it's amazing!)",
+      "Put down Bar Kochba revolt and expelled Jews from Jerusalem",
+      "Buried in the monumental Mausoleum of Hadrian in Rome",
+    ],
+    coinFile: ["assets/14-Hadrian2719.jpg", "assets/14-Hadrian2719_rev.jpg"],
+    coinLink: "http://numismatics.org/ocre/id/ric.2_3(2).hdn.2718-2719",
+  },
 ];
 
 export default coinData;
